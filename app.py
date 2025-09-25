@@ -85,7 +85,7 @@ if uploaded_file is not None and api_key and analyze_button:
             # --- cambio creativo ---
             st.markdown("---")
             st.subheader("🎨 Resumen divertido")
-            st.success(f"✨ En pocas palabras: {full_response[:120]}... 😎")
+            st.success(f"✨ En pocas palabras: {full_response[:200]}... 😎")
             st.info("👉 Consejo: puedes pedirle al modelo que te dé descripciones en estilo **poético, científico o cómico**.")
 
         except Exception as e:
